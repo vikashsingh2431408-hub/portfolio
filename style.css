@@ -1,0 +1,185 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#003049;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+header{
+  position:fixed;
+  width:100%;
+  padding:20px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(15px);
+  box-shadow:8px 8px 15px #002233,0px 0px 15px #004466;
+  z-index:1000;
+}
+
+nav a{
+  margin:0 15px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+nav a:hover{
+  color:#ffd60a;
+}
+
+section{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  padding:40px;
+}
+
+#home{
+  background:linear-gradient(135deg,#003049,#001d2e,#000814);
+}
+
+#certificates{
+  background:linear-gradient(135deg,#001d2e,#000814);
+}
+
+.home-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:80%;
+}
+
+h1{
+  font-size:2.8rem;
+  color:#ffd60a;
+}
+
+.highlight{
+  color:#00f5d4;
+}
+
+.image-circle{
+  width:260px;
+  height:260px;
+  border-radius:50%;
+  overflow:hidden;
+  box-shadow:0 0 40px #00f5d4;
+}
+
+.image-circle img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.about-container{
+  text-align:center;
+  max-width:900px;
+}
+
+.about-text{
+  margin-top:15px;
+  color:#ccc;
+}
+
+.about-cards{
+  display:flex;
+  gap:25px;
+  margin-top:30px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.about-card{
+  width:250px;
+  padding:25px;
+  border-radius:15px;
+  background:#1b1b3a;
+  text-align:center;
+  transition:0.3s;
+}
+
+.about-card i{
+  font-size:30px;
+  margin-bottom:10px;
+  color:#00f5d4;
+}
+
+.about-card p{
+  font-size:14px;
+  color:#bbb;
+}
+
+.about-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 25px #00f5d4;
+}
+
+.btn{
+  display:inline-block;
+  padding:10px 20px;
+  background:#ffd60a;
+  color:#003049;
+  border-radius:10px;
+  text-decoration:none;
+  margin-top:10px;
+}
+
+.projects{
+  display:flex;
+  gap:25px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card{
+  padding:25px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.08);
+  min-width:220px;
+  text-align:center;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+}
+
+.contact-form input,
+.contact-form textarea{
+  margin:10px;
+  padding:12px;
+  width:300px;
+}
+
+.contact-form button{
+  padding:10px;
+  background:#00f5d4;
+  border:none;
+}
+footer{
+  background:#000814;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+  color:#ccc;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+footer p{
+  letter-spacing:1px;
+}
