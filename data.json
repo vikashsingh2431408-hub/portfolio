@@ -32,10 +32,10 @@
   },
   "projects": [
     {
-      "name": "UI Design",
-      "live_url": "#",
-      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop",
-      "about": "A modern and sleek user interface design for a financial application."
+    "name": "algorithm-visualizer",
+    "live_url": "https://vedantvermajsx.github.io/AlgorithmVisualizer",
+      "image": "./images/algorithm-visualizer.avif",
+      "about": "algorithm visualizer is a modular web application crafted using HTML, CSS, and JavaScript. it breathes life into well-known algorithms through dynamic animations and step-by-step execution. supports sorting, pathfinding, and graph algorithms with interactive controls for speed and input."
     },
     {
       "name": "Web App",
