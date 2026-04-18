@@ -33,7 +33,7 @@
   "projects": [
     {
     "name": "algorithm-visualizer",
-    "live_url": "https://vedantvermajsx.github.io/AlgorithmVisualizer",
+    "live_url": "https://algorithmvisualizer-d2nf.onrender.com",
       "image": "./images/algorithm-visualizer.avif",
       "about": "algorithm visualizer is a modular web application crafted using HTML, CSS, and JavaScript. it breathes life into well-known algorithms through dynamic animations and step-by-step execution. supports sorting, pathfinding, and graph algorithms with interactive controls for speed and input."
     },
